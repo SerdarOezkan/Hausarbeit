@@ -30,7 +30,7 @@ df_fullfillment = calc_mean_and_std_of_fullfillment(df_fullfillment)
 
 
 # execerise 2 c)
-df_pressure_infos = calc_average_pressure(df_pressure,five_node_tuple(center_node_raw, 'J511', 'J414', 'J417', 'J310') )
+df_pressure_infos = calc_average_pressure(df_pressure,five_node_tuple(center_node_raw, 'J511', 'J411', 'J417', 'J310') )
 
 # exercise 3 a)
 plot_fullfillment(df_fullfillment)
